@@ -1,0 +1,14 @@
+@import './styles/tokens.css';
+
+/* 기본 Vite 스타일 초기화 및 디자인 시스템 기반 폰트 적용 */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,59 @@
+/* JT 디자인 시스템 토큰 - 2026-08-11 작성 */
+:root {
+  /* 색상 (Charcoal) */
+  --jt-color-brand-50: #F4F5F7;
+  --jt-color-brand-100: #E6E8EB;
+  --jt-color-brand-900: #1F2328; /* 기본 브랜드 컬러 */
+  
+  /* 상태 및 강조 (Blue) */
+  --jt-color-accent: #305CDE;
+  --jt-color-accent-hover: #264AB2;
+  
+  /* 텍스트 색상 */
+  --jt-color-text: #1F2328;
+  --jt-color-text-light: #59636E;
+  
+  /* 배경 색상 */
+  --jt-color-bg: #FFFFFF;
+  --jt-color-bg-sub: #F8F9FA;
+  
+  /* 간격 (4px 그리드) */
+  --jt-space-1: 4px;
+  --jt-space-2: 8px;
+  --jt-space-3: 12px;
+  --jt-space-4: 16px;
+  --jt-space-5: 20px;
+  --jt-space-6: 24px;
+  --jt-space-8: 32px;
+  
+  /* 라운드 */
+  --jt-r-sm: 4px;
+  --jt-r-md: 8px;
+  --jt-r-lg: 12px;
+  
+  /* 컴포넌트 크기 */
+  --jt-control-height: 36px;
+  
+  /* 타이포그래피 */
+  --jt-font-base: 'Pretendard', sans-serif;
+  --jt-font-num: 'Figtree', sans-serif;
+}
+
+body {
+  font-family: var(--jt-font-base);
+  color: var(--jt-color-text);
+  background-color: var(--jt-color-bg-sub);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 유틸리티 클래스 */
+.text-brand { color: var(--jt-color-brand-900); }
+.text-accent { color: var(--jt-color-accent); }
+.bg-brand { background-color: var(--jt-color-brand-900); color: white; }
+.bg-accent { background-color: var(--jt-color-accent); color: white; }
