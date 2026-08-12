@@ -1,5 +1,9 @@
 @import './styles/tokens.css';
 
+* {
+  box-sizing: border-box;
+}
+
 /* 기본 Vite 스타일 초기화 및 디자인 시스템 기반 폰트 적용 */
 html, body, #root {
   width: 100%;
