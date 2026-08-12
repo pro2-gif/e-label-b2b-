@@ -85,7 +85,7 @@ const ProductList = () => {
 
   const selectedProduct = selectedIndex !== '' ? products[selectedIndex] : null;
   const langQuery = isEnglish ? '?lang=en' : '?lang=ko';
-  const detailUrl = selectedIndex !== '' ? `${window.location.origin}/product/${selectedIndex}${langQuery}` : '';
+  const detailUrl = selectedIndex !== '' ? `${window.location.origin}/#/product/${selectedIndex}${langQuery}` : '';
 
   // 현재 선택된 제품의 렌더링용 이름
   let displayProductName = '';
